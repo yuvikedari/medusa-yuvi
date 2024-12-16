@@ -1,5 +1,11 @@
 # @medusajs/fulfillment
 
+## 2.1.2
+
+### Patch Changes
+
+- [#10602](https://github.com/medusajs/medusa/pull/10602) [`90ad2566fdde2215447100d10c3fe9b17ce826b5`](https://github.com/medusajs/medusa/commit/90ad2566fdde2215447100d10c3fe9b17ce826b5) Thanks [@riqwan](https://github.com/riqwan)! - feat(types,fulfillment): ability to delete a canceled fulfillment
+
 ## 2.1.1
 
 ## 2.1.0

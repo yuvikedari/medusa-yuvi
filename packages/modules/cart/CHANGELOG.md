@@ -1,5 +1,11 @@
 # @medusajs/cart
 
+## 2.1.2
+
+### Patch Changes
+
+- [#10626](https://github.com/medusajs/medusa/pull/10626) [`95baacfd00f54de028226731b016917caacde5af`](https://github.com/medusajs/medusa/commit/95baacfd00f54de028226731b016917caacde5af) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - fix: Cart tax rate data type
+
 ## 2.1.1
 
 ### Patch Changes
