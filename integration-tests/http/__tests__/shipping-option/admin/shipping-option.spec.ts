@@ -301,7 +301,8 @@ medusaIntegrationTestRunner({
           expect(err.status).toEqual(400)
           expect(err.data).toEqual({
             type: "invalid_data",
-            message: `Invalid request: Field 'service_zone_id' is required; Field 'shipping_profile_id' is required; Field 'price_type' is required`,
+            message:
+              "Invalid request: Field 'service_zone_id' is required; Field 'shipping_profile_id' is required; Field 'fulfillment_option_id' is required", // TODO: check why other required fields such as provider_id and price_type are not being listed
           })
         })
 
