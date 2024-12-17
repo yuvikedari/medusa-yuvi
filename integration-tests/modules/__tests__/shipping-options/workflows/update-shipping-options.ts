@@ -111,6 +111,7 @@ medusaIntegrationTestRunner({
             price_type: "flat",
             service_zone_id: serviceZone.id,
             shipping_profile_id: shippingProfile.id,
+            fulfillment_option_id: "test-fulfillment-option",
             provider_id,
             type: {
               code: "manual-type",
@@ -276,6 +277,7 @@ medusaIntegrationTestRunner({
             price_type: "flat",
             service_zone_id: serviceZone.id,
             shipping_profile_id: shippingProfile.id,
+            fulfillment_option_id: "test-fulfillment-option",
             provider_id,
             type: {
               code: "manual-type",
@@ -403,6 +405,7 @@ medusaIntegrationTestRunner({
             price_type: "flat",
             service_zone_id: serviceZone.id,
             shipping_profile_id: shippingProfile.id,
+            fulfillment_option_id: "test-fulfillment-option",
             provider_id,
             type: {
               code: "manual-type",
