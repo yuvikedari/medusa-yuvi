@@ -56,9 +56,7 @@ export const createShippingOptionsWorkflow = createWorkflow(
               (providerOption) =>
                 providerOption.provider_id === option.provider_id
             )
-            ?.options.find(
-              (option) => option.id === option.fulfillment_option_id
-            )
+            ?.options.find((o) => o.id === option.fulfillment_option_id)
 
           if (!fulfillmentOption) {
             throw new MedusaError(
@@ -81,7 +79,7 @@ export const createShippingOptionsWorkflow = createWorkflow(
         })
 
         return {
-          shippingOptions: data,
+          shippingOptions: input,
           shippingOptionsIndexToPrices,
         }
       }
