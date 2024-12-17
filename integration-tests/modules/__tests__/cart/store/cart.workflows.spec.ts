@@ -1553,6 +1553,7 @@ medusaIntegrationTestRunner({
                 service_zone_id: fulfillmentSet.service_zones[0].id,
                 shipping_profile_id: shippingProfile.id,
                 provider_id: "manual_test-provider",
+                fulfillment_option_id: "manual-fulfillment",
                 price_type: "flat",
                 type: {
                   label: "Test type",
@@ -1609,6 +1610,7 @@ medusaIntegrationTestRunner({
                 name: "Test shipping option",
                 service_zone_id: fulfillmentSet.service_zones[0].id,
                 shipping_profile_id: shippingProfile.id,
+                fulfillment_option_id: "manual-fulfillment",
                 provider_id: "manual_test-provider",
                 price_type: "flat",
                 type: {
@@ -1678,6 +1680,7 @@ medusaIntegrationTestRunner({
                 service_zone_id: fulfillmentSet.service_zones[0].id,
                 shipping_profile_id: shippingProfile.id,
                 provider_id: "manual_test-provider",
+                fulfillment_option_id: "manual-fulfillment",
                 price_type: "flat",
                 type: {
                   label: "Test type",
@@ -1834,6 +1837,7 @@ medusaIntegrationTestRunner({
                 service_zone_id: fulfillmentSet.service_zones[0].id,
                 shipping_profile_id: shippingProfile.id,
                 provider_id: "manual_test-provider",
+                fulfillment_option_id: "manual-fulfillment",
                 price_type: "flat",
                 type: {
                   label: "Test type",
@@ -2022,6 +2026,7 @@ medusaIntegrationTestRunner({
               service_zone_id: fulfillmentSet.service_zones[0].id,
               shipping_profile_id: shippingProfile.id,
               provider_id: "manual_test-provider",
+              fulfillment_option_id: "manual-fulfillment",
               price_type: "flat",
               type: {
                 label: "Test type",

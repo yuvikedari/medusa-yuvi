@@ -299,6 +299,7 @@ medusaIntegrationTestRunner({
         service_zone_id: fulfillmentSet.service_zones[0].id,
         shipping_profile_id: shippingProfile.id,
         provider_id: shippingProviderId,
+        fulfillment_option_id: "manual-fulfillment",
         price_type: "flat",
         type: {
           label: "Test type",
